@@ -1,16 +1,14 @@
-import sys
-import numpy as np
 import pandas as pd
 import streamlit as st
 import mysql.connector
 from mysql.connector import errorcode
 
 class DBLink(object):
-  def __init__(self, UCID=st.secrets.db_username, pwd=st.secrets.db_password, host="mysql01.arcs.njit.edu", db="vg472") -> None:
+  def __init__(self, UCID=st.secrets.db_username, pwd=st.secrets.db_password, host="mysql01.arcs.njit.edu") -> None:
     self.config = {'user': '%s' %UCID, 
                    'password': '%s' %pwd, 
                    'host': '%s' %host, 
-                   'database': '%s' %db, 
+                   'database': '%s' %UCID, 
                    'raise_on_warnings': True}
     self._alias = None
     return
