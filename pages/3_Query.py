@@ -32,12 +32,3 @@ if section == "Query":
             st.dataframe(df, use_container_width=True)
     else:
         st.warning("Please enter a query.")
-
-"""if section == "Update":
-    txt = st.text_area("Enter the query:", value=" ", height=250)
-    if txt:
-        if st.button("RUN", type="primary"):
-            df = DB.insert(txt)
-            st.dataframe(df, use_container_width=True)
-    else:
-        st.warning("Please enter a query.")"""
