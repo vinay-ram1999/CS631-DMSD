@@ -23,6 +23,14 @@ Analyze, design, implement, and document a database system application. To know 
     streamlit run Home.py --server.port 8501
     ```
 
+## UI
+
+![](https://github.com/vinay-ram1999/Project/Deliverable-3/UI/home_page.png)
+![](https://github.com/vinay-ram1999/Project/Deliverable-3/UI/shop.png)
+![](https://github.com/vinay-ram1999/Project/Deliverable-3/UI/shop_filter.png)
+![](https://github.com/vinay-ram1999/Project/Deliverable-3/UI/login.png)
+![](https://github.com/vinay-ram1999/Project/Deliverable-3/UI/query.png)
+
 ## Demo App
 
 **Note**: This url (https://ecomputerstore.streamlit.app/) does not work since the streamlit servers are remotely located and cannot access the NJIT network.
